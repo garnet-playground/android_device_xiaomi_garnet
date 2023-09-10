@@ -72,8 +72,6 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'=(\d+)>', r'="\1">'),
     'vendor/etc/media_codecs_parrot_v0.xml': blob_fixup()
         .regex_replace('.+media_codecs_(google_audio|google_c2|google_telephony|vendor_audio).+\n', ''),
-    'vendor/etc/vintf/manifest/c2_manifest_vendor.xml': blob_fixup()
-        .regex_replace('.+dolby.+\n', ''),
     (
         'vendor/lib64/hw/camera.qcom.so',
         'vendor/lib64/hw/com.qti.chi.override.so',

@@ -44,6 +44,9 @@
 /dev/mi_display/disp_feature u:object_r:vendor_displayfeature_device:s0
 /sys/devices/virtual/mi_display/disp_feature/disp-DSI-+[0-1](/.*)? u:object_r:vendor_sysfs_displayfeature:s0
 
+# Data files
+/data/vendor/dolby(/.*)?                      u:object_r:vendor_data_file:s0
+
 # Fingerprint
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.xiaomi u:object_r:hal_fingerprint_default_exec:s0
 /data/vendor/fpc(/.*)? u:object_r:vendor_fingerprint_data_file:s0
@@ -52,6 +55,9 @@
 /dev/goodix_fp u:object_r:vendor_fingerprint_device:s0
 /mnt/vendor/persist/fpc(/.*)? u:object_r:vendor_fingerprint_data_file:s0
 /mnt/vendor/persist/goodix(/.*)? u:object_r:vendor_fingerprint_data_file:s0
+
+# HALs
+/vendor/bin/hw/vendor\.dolby\.hardware\.dms@2\.0-service                                            u:object_r:hal_dms_default_exec:s0
 
 # Mlipay
 /(vendor|system/vendor)/bin/mlipayd@1.1 u:object_r:hal_mlipay_default_exec:s0
