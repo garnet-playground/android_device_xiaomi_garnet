@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "vendor_xiaomi_garnet",
+    "target_path": "vendor/xiaomi/garnet"
+  },
+  {
+    "repository": "kernel_xiaomi_garnet",
+    "target_path": "kernel/xiaomi/sm7435"
+  },
+  {
+    "repository": "kernel_xiaomi_garnet-modules",
+    "target_path": "kernel/xiaomi/sm7435-modules"
+  },
+  {
+    "repository": "kernel_xiaomi_garnet-devicetrees",
+    "target_path": "kernel/xiaomi/sm7435-devicetrees"
+  },
+  {
+    "repository": "hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "device_xiaomi_garnet-miuicamera",
+    "target_path": "device/xiaomi/garnet-miuicamera"
+  },
+  {
+    "repository": "c0pt4n/proprietary_vendor_xiaomi_garnet-miuicamera",
+    "target_path": "vendor/xiaomi/garnet-miuicamera",
+    "branch": "lineage-23.0",
+    "remote": "gitlab"
+  }
+]
