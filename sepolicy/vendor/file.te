@@ -5,6 +5,9 @@ type smartpa_type, fs_type, sysfs_type;
 # Batterysecret
 type vendor_sysfs_qcom_battery, fs_type, sysfs_type;
 
+# Camera
+type camera_persist_file, file_type, mlstrustedobject, vendor_persist_type;
+
 # Displayfeature
 type vendor_sysfs_displayfeature, fs_type, sysfs_type;
 
@@ -16,6 +19,7 @@ type vendor_fingerprint_data_file_fpdump, data_file_type, file_type;
 # Thermal
 type sys_thermal_max_brightness, fs_type, sysfs_type;
 type sys_thermal_wifi_limit, fs_type, sysfs_type;
+type sys_thermal_flash_state, fs_type, sysfs_type;
 type thermal_data_file, data_file_type, file_type;
 
 # Wifi
